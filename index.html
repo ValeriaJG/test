@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <title>Site</title>
+</head>
+
+<body>
+    <div id="bg_big">
+        <div class="bg_img bg_header_img "></div>
+    </div>
+    <div class="test_block">
+        <script type="module" src="js/header.js"></script>
+        <new-header id="page1"></new-header>
+    </div>
+
+    <div class="block_1_slide">
+        <div class="block">
+            <div class="bolds txt_margin">Фото наших работ</div>
+            <div id="block_arrow">
+                <div id="arrow_left">
+                    <div id="arrow_left_top"></div>
+                    <div id="arrow_left_bottom"></div>
+                </div>
+                <div id="arrow_right">
+                    <div id="arrow_right_top"></div>
+                    <div id="arrow_right_bottom"></div>
+                </div>
+            </div>
+            <div class="slide_show">
+                <img id="img" src="assets/img/photogallery/1.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- вариант 1
+    <div class="block_2">
+        <div class="block content_block content_block_two_center">
+            <img src="/assets/img/img_1.jpg" class="block_left" alt="">
+            <div class="block_right block_text_shadow" style="margin-left: 40px;">
+                <div class="text_right">
+                    Предприятие “Скло-дзеркальна майстерня” на рынке уже более 20 лет. <br>
+                    Мы делаем свою работу на совесть и выкладываемся на 100%. <br>
+                    Работаем от самой легкой работы - прирезка стекла/зеркала, до самых нестандартных работ за
+                    которые
+                    никто не берется.<br>
+                    Все с чем мы работаем, вы можете посмотреть в меню Услуги.
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- вариант 2 -->
+    <div class="block_fix_size_box">
+        <div class="block text_right bolds">
+            Почему именно "Скло-дзеркальна майстерня"?
+        </div>
+        <div class="block content_block content_block_two_center">
+            <img src="assets/img/img_1.jpg" class="block_left" alt="">
+            <div class="fix_box">
+                <div class="fix_size_box">
+                    <div class=" fix_size_box_text text_hover">
+                        Раньше были на контрактовой площади ул.Хорыва 2Г.
+                    </div>
+                    <div class="fix_size_box_text opacity">
+                        Мы на рынке уже более 20 лет.
+                    </div>
+                    <div class="wrap">
+                        <div id="check-part-1" class="check-sign"></div>
+                        <div id="check-part-2" class="check-sign"></div>
+                    </div>
+                </div>
+                <div class="fix_size_box">
+                    <div class="text_hover">
+                        Заработали доверие клиентов и делаем все с душой.
+                    </div>
+                    <div class="fix_size_box_text opacity">
+                        Мы делаем свою работу на совесть и выкладываемся на 100%.
+                    </div>
+                    <div class="wrap">
+                        <div id="check-part-1" class="check-sign"></div>
+                        <div id="check-part-2" class="check-sign"></div>
+                    </div>
+                </div>
+                <div class="fix_size_box">
+                    <div class="text_hover">
+                        Более подробнее можно узнать в <a href="services.html">Услугах</a>.
+                    </div>
+                    <div class="fix_size_box_text opacity">
+                        Работаем от самой легкой работы - прирезка стекла/зеркала, до самых нестандартных работ за
+                        которые никто не берется.
+                    </div>
+                    <div class="wrap">
+                        <div id="check-part-1" class="check-sign"></div>
+                        <div id="check-part-2" class="check-sign"></div>
+                    </div>
+                </div>
+                <div class="fix_size_box">
+                    <div class="text_hover">
+                        Страховка действует, если с изделием что-то случилось по нашей вине.
+                    </div>
+                    <div class="fix_size_box_text opacity">
+                        100% страхование во время нашей доставки
+                    </div>
+                    <div class="wrap">
+                        <div id="check-part-1" class="check-sign"></div>
+                        <div id="check-part-2" class="check-sign"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block text_right">
+            Все с чем мы работаем, вы можете посмотреть в меню <a href="services.html">Услуги</a>.
+        </div>
+    </div>
+
+    <!-- вариант 3 -->
+    <!-- <div class="block_fix_size_box">
+        <div class="block text_right bolds">
+            Почему именно "Скло-дзеркальна майстерня"?
+        </div>
+        <div class="block content_block content_block_two_center">
+            <div class="fix_box">
+                <div class="fix_size_box">
+                    <div class="fix_size_box_text">
+                        Мы на рынке уже более 20 лет.
+                    </div>
+                </div>
+                <div class="fix_size_box">
+                    <div class="fix_size_box_text">
+                        Мы делаем свою работу на совесть и выкладываемся на 100%.
+                    </div>
+                </div>
+                <div class="fix_size_box">
+                    <div class="fix_size_box_text">
+                        Работаем от самой легкой работы - прирезка стекла/зеркала,
+                        до самых нестандартных работ за которые никто не берется.
+                    </div>
+                </div>
+                <div class="fix_size_box">
+                    <div class="fix_size_box_text">
+                        100% страхование во время доставки
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block text_right">
+            Все с чем мы работаем, вы можете посмотреть в меню Услуги.
+        </div>
+    </div> -->
+
+
+    <!-- ============================= -->
+
+
+    <!-- вариант 1 -->
+    <div class="block_1 flex">
+        <div class="block_with_color"></div>
+        <div class="block content_block_center ">
+            <div class="block_text_shadow">
+                <div class="text_left">
+                    <div class="bolds">Стекло</div>
+                    <div class="content_block_center_flex">
+                        <p>
+                            Работаем со стеклами: полированными, рифленными. <br><br> Обрабатываем стеклозеркальные
+                            изделия для производства изделий и стекла в интерьере;<br><br> Делаем профессиональный и
+                            качесественный ремонт точной обработки стекла,
+                            шлифовки и полировки;
+                            <br><br> Стекло для кухонных фартуков с рисунком и без​​​​​​​​​​;<br><br> Стекло для душевых
+                            кабин каленое, под заказ.
+                        </p>
+                        <img src="" class="img_right" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block_2">
+        <div class="block content_block">
+            <div class="block_right block_text_shadow">
+                <div class=" text_right text_left ">
+                    <div class="bolds">Авто-Мото Зеркала</div>
+                    <p>
+                        Изготавливаем и заменяем <b>полусферические</b> зеркала на любые автомобили и мотоциклы. <br>
+                        Без ограничений в течении часа! <br> А так же изготавливаем обогревы на авто-зеркала и
+                        мото-зеркала.
+                    </p>
+                </div>
+            </div>
+            <img src="assets/img/car_moto.png" id="car_moto" alt="">
+        </div>
+    </div>
+
+
+    <div class="block_fix_size_box_link">
+        <div class="block text_right bolds">
+            Более подробно можно ознакомиться в этих категориях
+        </div>
+        <div class="block">
+            <div class="fix_box_menu">
+                <a href="services.html" class="fix_size_box_about">
+                    <div class="fix_size_box_text"> Услуги </div>
+                </a>
+                <a href="about.html" class="fix_size_box_about">
+                    <div class="fix_size_box_text"> О нас </div>
+                </a>
+                <a href="photogallery.html" class="fix_size_box_about">
+                    <div class="fix_size_box_text"> Фотогалерея </div>
+                </a>
+                <a href="contact.html" class="fix_size_box_about">
+                    <div class="fix_size_box_text"> Контакты </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="block_1 flex contact">
+        <div class="block_with_color"></div>
+        <div class="block content_block_center ">
+            <form id="myForm" role="form" name="contact" method="POST">
+                <div class="bolds"><b>СВЯЖИТЕСЬ С НАМИ</b></div>
+                <input class="contact_block_text_shadow" name="name" type="text" placeholder="Ваше имя *" required="">
+                <input class="contact_block_text_shadow" name="phone" type="phone" placeholder="Ваш номер телефона *"
+                    required>
+                <input class="contact_block_text_shadow" name="email" type="email" placeholder="Ваш E-mail">
+                <textarea class="contact_block_message" name="message" placeholder="Сообщение *" required></textarea>
+                <input class="contact_button" name="submit" type="submit" value="Отправить">
+
+                <div id="result"> </div>
+            </form>
+        </div>
+    </div>
+    <div class="block_map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1509.7154518050975!2d30.492397935163062!3d50.477810854812496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6a43d73c89%3A0x3be6f9a6166352bb!2z0KHRgtC10LrQu9C-LdC30LXRgNC60LDQu9GM0L3QsNGPINCc0LDRgdGC0LXRgNGB0LrQsNGPINCn0J8g0JPQsNGA0LrQsNC90L7QsiDQni7Qri4!5e0!3m2!1sru!2sua!4v1633771183222!5m2!1sru!2sua"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <script type="module" src="js/footer.js"></script>
+    <new-footer></new-footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script defer src="js/index.js"></script>
+    <script src="js/slideShow.js"></script>
+
+</body>
+
+</html>
