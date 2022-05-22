@@ -13,7 +13,7 @@ const server = http.createServer((req,res)=>{ console.log(req.url);
 res.statusCode = 200;
 res.setHeader('Content-Type', 'text/html');
 fs.createReadStream('index.html').pipe(res);
-res.end('hi');
+// res.end('hi');
 });
 
 server.listen(port, hostname, () => { console.log(`Server running at http:${hostname}:${port}`); });
